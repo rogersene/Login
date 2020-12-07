@@ -1,43 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Login</title>
     
     <link rel="stylesheet" href="style.css">
+    
 </head>
+
 <body id="logo" background="/plano-fundo.jpg">
 
     <div id="logo">
+        
         <div id="fundo">
             <img src= "Images/logo-digital-ajustada.png" alt="" />
         </div>
+
     </div>
 
     <header>
+
         <h1>Bem vindo ao nosso sistema</h1>
+
     </header>
+
     <form name= "formulario" onsubmit="validar(this); return false;">
+        
         <h2><p>Login</p></h2>
 
         <p><input type="text" name="username" id="username" placeholder="Insira Usuário" required onfocus="this.value ='';"></p>
+
         <p><input type="password" name="password" id="password" placeholder="Insira Senha" required></p>
-        <p><input type="submit" name="Enviar" id="Enviar" onclick="Login()"></p>
         
+        <p><input type="submit" name="Enviar" id="Enviar" onclick="Login()"></p>
+                
         <div id="msg">
+            
             <label>Login Correto </label>
+           
         </div>
         
         <div>
+
             <input type="checkbox" name="Lembrar-me" id="lembrar" >Lembrar-me
+        
         </div>
 
         <div id="recuperar">
+            
             <a href="url" style="text-decoration: none">Recuperar Senha</a>
+        
         </div>
         
         <script src="login-page.js"></script>
+    
     </form>
 </body>
 </html>

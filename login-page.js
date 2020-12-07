@@ -4,16 +4,16 @@ function validar(formulario) {
     var password = formulario.password.value
     var msg = document.getElementById('msg')
 
-
         if (username === 'roscresc' && password === 'Roger*2019') {
-            window.alert('Login Aprovado')
+            window.location.href = "http://127.0.0.1:5500/index2.html";
+            return true
+
         } else {
             
             msg.style.color = 'red'
             msg.innerText = `\u{2757}  Usuário ou senha estão Incorretos`
-            return false;
+            return false;   
         }
-
-
+    
     formulario.submit()
 }

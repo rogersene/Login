@@ -2,9 +2,14 @@ h1 {
     color: rgb(8, 0, 8);
     padding: 15px;
     text-align: center;
-    margin-top: 35px;
-    font: bold  ;
+    margin-top: 70px;
+    font: bold;
     visibility: hidden;
+}
+   
+label#boasvindas {
+    font-size: 60px;
+    font: bolder;
 }
 
 div#msg {
