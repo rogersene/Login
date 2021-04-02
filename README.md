@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src="https://github.com/rogersene/Dev-Finance/blob/main/assets/devfinances.png" width="100%">
+  <img alt="login" src="https://github.com/rogersene/Login/blob/main/src/img/GIF.png">
 </p>
 
 
