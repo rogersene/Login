@@ -1,0 +1,138 @@
+body {
+    background-image: url('../img/plano-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+
+
+h1 {
+    color: rgb(8, 0, 8);
+    padding: 15px;
+    text-align: center;
+    margin-top: 35px;
+    font: bold  ;
+    visibility: hidden;
+}
+
+div#msg {
+    color: rgba(15, 228, 243, 0.999);
+    font: bolder;
+    font-size: 18px;   
+}
+
+div#lembrar {
+    color: black;  
+}
+
+div#recuperar {
+    text-decoration-style: none;
+    color: black;
+    margin-top: 5px;
+}
+
+input#Enviar {
+    font: bold;
+    border: none;
+    border-top: rgb(226, 231, 231);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 400ms ease; 
+    width: 100px;
+    padding: 10px;
+    font-style: initial;
+}
+
+#username::placeholder {
+    color: rgba(73, 68, 68, 0.432);
+    font-style: italic;
+    text-align: center;  
+}
+
+
+#username:placeholder-shown {
+    color: rgba(73, 68, 68, 0.432);
+    border: 2px unset rgba(0, 0, 0, 0.226) ;
+    padding: 8px;
+    border-radius: 5px;
+    width: 200px;
+}
+    
+
+#password::placeholder {
+    color: rgba(73, 68, 68, 0.432);
+    font-style: italic;
+    text-align: center;
+}
+
+
+#password:placeholder-shown {
+    color: rgba(73, 68, 68, 0.432);
+    border: 2px unset rgba(0, 0, 0, 0.226);
+    padding: 8px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input#username {
+    border: 2px unset rgba(73, 68, 68, 0.432);
+    padding: 8px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input#password {
+    border: 2px unset rgba(73, 68, 68, 0.432);
+    padding: 8px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+
+form {
+    border: none;
+    border-radius: 30px;
+    color: black;
+    background: rgba(15, 228, 243, 0.999);
+    border-radius: 10px;
+    padding: 20px;
+    width: 380px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(207, 207, 207);
+    text-align: center;
+   
+
+}
+
+
+.form-page-initial {
+    border: none;
+    border-radius: 30px;
+    color: black;
+    background: rgba(15, 228, 243, 0.999);
+    border-radius: 10px;
+    padding: 20px;
+    width: 380px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(207, 207, 207);
+    text-align: center;
+
+}
+
+
+
+h2 {
+    color: black;
+    text-align: "center";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
