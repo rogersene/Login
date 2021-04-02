@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="login" src="https://github.com/rogersene/Login/blob/main/src/img/GIF.png">
+  <img alt="login" src="https://github.com/rogersene/Login/blob/main/src/img/giphy.gif">
 </p>
 
 
